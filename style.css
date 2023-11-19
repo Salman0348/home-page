@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(227, 213, 195);
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    margin-left:2%;
+    margin-right:2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+                                /* Header part*/
+header>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+                                /* navigation bar*/
+nav{
+    text-align: center;   
+    }
+ul{
+    list-style: none;
+    background-color:#664188;
+    border-radius:0.5rem ;
+    }
+ul li{
+    display:inline-block;
+    padding:0.5rem; 
+    }
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    }
+li:hover{
+    background-color: #fc19fc;
+    }
+
+                                /* layout part*/
+section{
+    display:flex;
+    }
+section article{
+    flex:1;
+    }
+section a{
+    text-decoration: none;
+    margin:5px;
+    }
+section a:hover{
+    color: #fc19fc;
+    }
+
+                                /* 1st row of the main*/
+#intro article{
+    background:rgba(0, 0, 0, 0.3) url("banner.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 1rem;
+    color:white;
+    font-size: 1.2rem;
+    }
+h1{
+    font-size:3rem;
+    padding: 0.5rem; 
+    }
+h1~p{
+    margin-top:-30px;
+    }
+#intro{
+    transition: transform 0.6s;
+    }
+#intro:hover {
+    transform: scale(1.04);
+  }
+
+                                /* 2nd row of the main*/
+#info article{
+    background-color:#ffd582 ;
+    margin:1.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+    transition: transform 0.5s;
+    }
+h2{
+    font-size:2rem;
+    padding:0.5rem;
+    }
+#info img{
+    margin:0% 5%;
+    height:12rem;
+    width:90%;
+    }
+p{  
+    margin-bottom: 7px;
+    padding:5px 5px 0px 5px;
+    }
+#info1:hover{
+    transform:scale(1.02);
+    background-color:#ecc579;
+    }
+#info2:hover{
+    transform:scale(1.03);
+    background-color:#ecc579;
+    }
+#info3:hover{
+    transform:scale(1.03);
+    background-color:#ecc579;
+    }
+
+                                /* footer part*/
+footer{
+    margin:20px 7px 0px 20px;
+    display:flex;
+    }
+footer div{
+    flex:1;
+    }
+#copyright{
+    border:solid;
+    border-bottom:none;
+    border-right:none;
+    border-left: none;
+    border-width: 0.1rem;
+    padding-top:1rem;
+    text-align: right;
+    }
